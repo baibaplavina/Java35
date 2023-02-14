@@ -14,5 +14,9 @@ public class Variables {
         int age = 75;
         System.out.println(" age = " + age);
 
+        // pārraksta iepriekšējo vērtību
+        age = 80;
+        System.out.println(" age = " + age);
+
     }
 }
