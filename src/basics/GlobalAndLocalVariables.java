@@ -1,5 +1,9 @@
+package basics;
+
 public class GlobalAndLocalVariables {
     public static void main(String[] args) {
+      // Globālie un lokālie mainīgie. No globālā līmeņa var izsaukt visur, bet lokālā nevar. Skatīt starp figūriekavām.
+
         int global = 10;
         System.out.println(global);
 

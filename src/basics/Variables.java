@@ -1,3 +1,5 @@
+package basics;
+
 public class Variables {
     // main method
     public static void main(String[] args) {
