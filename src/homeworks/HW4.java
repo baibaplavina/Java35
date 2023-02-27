@@ -4,20 +4,21 @@ import java.util.Scanner;
 
 public class HW4 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+      //  Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter the 1st number.");
-        int number1 = scanner.nextInt();
+     //   System.out.println("Please enter the 1st number.");
 
-        System.out.println("Please enter the 2nd number.");
-        int number2 = scanner.nextInt();
+      //  int number1 = scanner.nextInt();
 
-        if (number1 > 0 && number2 > 0 || number1 < 0 && number2 < 0 ) {
-            System.out.println("True");
-        } else {
-            System.out.println("False");
+      //  System.out.println("Please enter the 2nd number.");
+      //  int number2 = scanner.nextInt();
 
-        }
+     //   if (number1 > 0 && number2 > 0 || number1 < 0 && number2 < 0 ) {
+       //     System.out.println("True");
+      //  } else {
+        //    System.out.println("False");
+
+
     }
 
 
