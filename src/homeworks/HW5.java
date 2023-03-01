@@ -8,8 +8,8 @@ public class HW5 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter necessary amount of jam ");
-
         int necessaryAmount = scanner.nextInt();
+
         int jar7kg =7;
         int jarNumber =6;
 
@@ -29,7 +29,7 @@ public class HW5 {
         }
 
 
-               /*      Alex is an owner of grocery store. Among many products he sells,
+        /*      Alex is an owner of grocery store. Among many products he sells,
         he's mostly famous for his hand-made jam, that is being
         sold in jars of 1kg or 7kg. Alex sells only full jars
         (i.e. it's only possible to buy the whole jar of 1kg, or 7kg).
