@@ -37,32 +37,33 @@ public class ArrayExamples {
         // Length of array - elements
         System.out.println(dreamCars.length);
 
-        //Iterate through all elements in array with for loop
+        //Iterate through all elements in array with for loop / Access all elements of the array
 
         for (int i = 0; i < dreamCars.length; i++) {
 // otrais elements var būt i <=dreamCars.length -1
             System.out.println(dreamCars[i]);
-
         }
+
 //Izprintēt kopu ar numerāciju.
         for (int i = 0; i < dreamCars.length; i++) {
             System.out.println((i + 1) + ". " + dreamCars[i]);
         }
 
-        // For-each loop type same idea
+        // Izprintē visu kopu - For-each loop type same idea - Lietot lai dabūtu datus no array ārā.
         for(String car : dreamCars){
             System.out.println(car);
         }
-
+        // Veids kā izprintēt visu array. Izprintēt kvadrātiekavās, vienu no otra atdalot ar komatu.
         System.out.println(Arrays.toString(dreamCars));
 
         // we have an array of some amount int values
         // We need to give a comment for every element in the array
         // If the value is odd (nepāra skaitļi) or even (pāra skaitļi)
 
+        // Vēl viens veids kā izveidot array
         int listOfNumbers [] = {234,5,45,23,65,33,1,64,2};
 
-        //tO LOOP througt all elements let's use for-each loop
+        //tO LOOP throught all elements let's use FOR-EACH loop
         for(int number : listOfNumbers){
             if(number % 2 ==0) {
                 System.out.println(number + " even number");
