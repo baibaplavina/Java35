@@ -15,13 +15,14 @@ public class HW8 {
         int i;
         float sum = 0;
         int count=0;
-        for (i=0; i< arrayNumbers.length; i++){
-            System.out.println("Please enter elements No: " + (i+1));
+
+        for (i = 0; i < arrayNumbers.length; i++) {
+            System.out.println("Please enter element No: " + (i + 1));
             int enteredArrayNo = scanner.nextInt();
             arrayNumbers[i] = enteredArrayNo;
-            sum = sum + arrayNumbers[i];
-            count++;
-        }
+              sum = sum + arrayNumbers[i];
+              count++;
+            }
 
         //Print out all array
         System.out.println("Source array: " + Arrays.toString(arrayNumbers));

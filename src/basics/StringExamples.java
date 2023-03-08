@@ -8,7 +8,7 @@ public class StringExamples {
         System.out.println("Enter your name");
 
         //How to compare Strings
-        //trim metod remove spaces in the begining and in the end, but not between text.
+        //trim method remove spaces in the begining and in the end, but not between text.
 
         String name = scanner.nextLine().toUpperCase().trim();
 
@@ -33,8 +33,9 @@ public class StringExamples {
         //indexOf = thIS IS new text - 2x IS
         // Sting is array of characters
         System.out.println(result.indexOf("is"));
+        System.out.println(result.indexOf('x'));
 
-        //charAt()
+        //charAt() - Izprintē pirmo vērtību/ otro, trešo, ceturto
         System.out.println(result.charAt(0));
         System.out.println(result.charAt(1));
         System.out.println(result.charAt(2));
