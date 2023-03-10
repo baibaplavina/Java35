@@ -50,6 +50,48 @@ public class StringExamples {
         System.out.println(greetings.replaceFirst("holiday", "Easter"));
         System.out.println("---");
         System.out.println(greetings.replaceAll("nice holiday", "nice Easter"));
-        
+
+
+        //Substring - Number from which index it print out the text/ cut of first 3 letters. /Ja iekavās ir 2 cipari,
+        //tad no kura sāk un ar kuru beidz tekstu.
+        String introduction = "Hello there! My name is Bob and I'm 66";
+        System.out.println(introduction.substring(3));
+        System.out.println(introduction.substring(6,11));
+
+        //Sāk skaitīt no 0. 3 (trīs) ir 36 zīme.
+        System.out.println(introduction.length());
+        // Lieto .trim() metodi, lai noņemtu tukšo vietu pirms piemēram 6 years old.
+        String bobsAge = introduction.substring(introduction.length()-2).trim();
+        System.out.println("Bob is " + bobsAge + " years old");
+
+        //Wraper class use to change String and use it with math operations/ Convert string to integer.
+
+        int bobsAgeAsInteger = Integer.parseInt(bobsAge);
+        if(bobsAgeAsInteger>=18){
+            System.out.println("Adult");
+        }else {
+            System.out.println("Child");
+        }
+
+        //Wrapper class
+        int temp1 = 36;
+        Integer temp2 = 36;
+
+        String intStrValue = "1";
+        String floatStrValue = "2.0";
+        String doubleStrValue = "2.5342323";
+        String booleanStrValue = "true";
+        String longStrValue = "1234134234243455";
+        String charStrValue = "c";
+
+        int intValue = Integer.parseInt(intStrValue);
+        float floatValue = Float.parseFloat(floatStrValue);
+        double doubleValue = Double.parseDouble(doubleStrValue);
+        boolean booleanValue = Boolean.parseBoolean(booleanStrValue);
+        long longValue = Long.parseLong(longStrValue);
+        char charValue = charStrValue.charAt(0);
+
+
+
     }
 }
