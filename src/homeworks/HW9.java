@@ -9,24 +9,22 @@ public class HW9 {
         Scanner scanner = new Scanner(System.in);
         int treeLevels = scanner.nextInt();
 
+        //Levels
         for (int i = 1; i <= treeLevels; i++) {
+            //spaces
             for (int space = i; space <= treeLevels; space++) {
                 System.out.print("  ");
             }
+            //stars
             for (int star = 1; star <= i*2-1; star++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
-
-        for (int h = 1; h<=1; h++)   {
-            for (int space = h; space <= treeLevels; space++) {
+        //Trunk
+        for (int space = 0; space <= treeLevels-1; space++) {
                 System.out.print("  ");
             }
-            for (int hash = 1; hash <= 1; hash++) {
-                System.out.print("#");
-            }
-            System.out.println();
-        }
+           System.out.println("#");
     }
 }
