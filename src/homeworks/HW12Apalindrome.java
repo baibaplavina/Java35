@@ -18,7 +18,7 @@ public class HW12Apalindrome {
         //Compare first and last letter/simbol, 2nd and 2nd from the end etc.
        for (i = 0; i < enteredName.length()/2; i++) {
          // System.out.println(i);
-          if (i != j) {
+          if (i!=(j)) {
            System.out.println("This is NOT palindrome");
           } else {
               System.out.println("This is PALINDROME");

@@ -18,11 +18,16 @@ public class Methods {
         String answer2 = greetings(usersName);
         System.out.println(answer2);
 
+        //Call method and pass numbers in:
+        System.out.println(sum(4,5,6) );
+
      //   printName("Bob");
      //   printName("Lisa");
     }
         // name = userName
         //age = userAge
+
+    //Void do not return anything
     public static void printName(String name, int age) {
         System.out.println("Hello your name is " + name) ;
         System.out.println("You are " + age + "years old");
@@ -31,5 +36,9 @@ public class Methods {
 public static String greetings(String name){
         String result = "Hi " + name;
         return result;
+    }
+
+    public static int sum(int num1, int num2, int num3) {
+        return num1+num2+num3;
     }
 }
