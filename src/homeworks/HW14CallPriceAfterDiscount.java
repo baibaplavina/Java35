@@ -13,10 +13,11 @@ public class HW14CallPriceAfterDiscount {
         System.out.println("Please enter discount amount (% - percentage)");
         float discount = scanner.nextInt();
 
-        Good good1 = new Good();
-         good1.setPrice(price);
-         good1.setDiscount(discount);
-        good1.priceAfterDiscount;
+        HW14PriceAfterDiscount good1 = new HW14PriceAfterDiscount();
+        good1.setPrice(price);
+        good1.setDiscount(discount);
+
+        good1.priceAfterDiscount(price,discount);
 
     }
 }

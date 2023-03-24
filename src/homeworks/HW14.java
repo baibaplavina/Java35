@@ -14,6 +14,8 @@ public class HW14 {
         float discount = scanner.nextInt();
 
         Good good1 = new Good();
+         good1.setPrice(price);
+         good1.setDiscount(discount);
         good1.setGood1(priceAfterDiscount);
 
     }
